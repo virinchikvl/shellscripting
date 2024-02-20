@@ -8,4 +8,4 @@ read -p "Enter second number: " num2
 sum=$(( $num1 + $num2 ))
 
 # Display the result
-echo "Sum is: $sum"   
+echo "Sum this is: $sum"   
