@@ -2,7 +2,7 @@
 
 # check if the number is greater than 10 or not
 read -p "enter your NUMBER:" 
-NUMBER=$1
+#NUMBER=$1
 
 if [ $NUMBER -gt 10 ]
 then
