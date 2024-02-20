@@ -4,10 +4,10 @@
 
 USERID=$(id -u)
 
-if [$USERID -ne 0]
+if [ $USERID -ne 0 ]
 then 
-echo "run this script with root access"
+    echo "run this script with root access"
 else 
-echo "INFO :: Your istallation is in process"
+    echo "INFO :: Your istallation is in process"
 fi 
 yum install mysql -y
