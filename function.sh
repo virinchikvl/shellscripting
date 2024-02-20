@@ -11,7 +11,7 @@ else
     echo "Installation of mysql is success"
 fi
 }
-if [USERID -ne 0]
+if [ $USERID -ne 0 ]
 	then 
 		echo "run this script with root access"
 		exit 1
